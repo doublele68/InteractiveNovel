@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.npm-cache/
+
+# IDE-generated internal docs
+.qoder/
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ===== Sensitive / deployment files (DO NOT open-source) =====
+# Deployment scripts containing server IP & credentials
+.deploy_*.sh
+deploy.exp
+deploy_full.sh
+
+# Server-side runtime data & user-generated content
+server/userdata/
+server/covers/
+server/published.json
+server/invites.json
+server/response.json
+
+# Backup & temporary maintenance scripts
+*.bak
+server/*.bak
+server/fix_*.py
